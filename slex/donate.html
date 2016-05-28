@@ -1,0 +1,20 @@
+{#
+    Original work
+    Copyright (c) 2016 Jeff Forcier.
+    Based on original work copyright (c) 2011 Kenneth Reitz and copyright (c) 2010
+    Armin Ronacher.
+    :license: MIT
+
+    Modified by
+    Copyright (c) 2016 Hiroyuki Takagi
+    :license: MIT
+#}
+{% if theme_gratipay_user or theme_gittip_user %}
+<h3>Donate</h3>
+<p>
+Consider supporting the authors on <a href="https://www.gratipay.com/">Gratipay</a>:
+<script data-gratipay-username="{{ theme_gratipay_user or theme_gittip_user }}"
+        data-gratipay-widget="button"
+        src="//gttp.co/v1.js"></script>
+</p>
+{% endif %}

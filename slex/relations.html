@@ -1,0 +1,32 @@
+{#
+    Original work
+    Copyright (c) 2016 Jeff Forcier.
+    Based on original work copyright (c) 2011 Kenneth Reitz and copyright (c) 2010
+    Armin Ronacher.
+    :license: MIT
+
+    Modified by
+    Copyright (c) 2016 Hiroyuki Takagi
+    :license: MIT
+#}
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="{{ pathto(master_doc) }}">Documentation overview</a><ul>
+  {%- for parent in parents %}
+  <li><a href="{{ parent.link|e }}">{{ parent.title }}</a><ul>
+  {%- endfor %}
+    {%- if prev %}
+      <li>Previous: <a href="{{ prev.link|e }}" title="{{ _('previous chapter')
+        }}">{{ prev.title }}</a></li>
+    {%- endif %}
+    {%- if next %}
+      <li>Next: <a href="{{ next.link|e }}" title="{{ _('next chapter')
+        }}">{{ next.title }}</a></li>
+    {%- endif %}
+  {%- for parent in parents %}
+  </ul></li>
+  {%- endfor %}
+  </ul></li>
+</ul>
+</div>
