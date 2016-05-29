@@ -1,0 +1,7 @@
+language: python
+
+install:
+  - pip install .
+script:
+  - cd docs
+  - sphinx-build -b html -d _build/toctree -E -W . _build/html
