@@ -1,6 +1,18 @@
 SLEX
 ====
 
+.. image:: https://img.shields.io/pypi/v/slex.svg
+   :target: https://pypi.python.org/pypi/slex
+
+.. image:: https://img.shields.io/pypi/pyversions/slex.svg
+   :target: https://pypi.python.org/pypi/slex
+
+.. image:: https://travis-ci.org/miyakogi/slex.svg
+   :target: https://travis-ci.org/miyakogi/slex
+
+--------------------------------------------------------------------------------
+
+
 Simple and flexible `Sphinx`_ theme for the flexbox age.
 
 Features
