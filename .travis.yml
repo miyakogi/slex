@@ -2,6 +2,8 @@ language: python
 
 install:
   - pip install .
+  - pip install sphinx
+  - pip install git+https://github.com/miyakogi/m2r.git
 script:
   - cd docs
   - sphinx-build -b html -d _build/toctree -E -W . _build/html
