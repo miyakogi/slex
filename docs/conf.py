@@ -31,6 +31,8 @@ import os
 # ones.
 extensions = ['m2r']
 
+suppress_warnings = ['image.nonlocal_uri']
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
