@@ -21,6 +21,7 @@ subprocess.run(['make', 'html'])
 
 server.watch('./*.py', cmd, ignore=None)
 server.watch('./*.rst', cmd, ignore=None)
+server.watch('./*.md', cmd, ignore=None)
 server.watch('./_static/*.css', cmd, ignore=None)
 server.watch('./_templates/*.html', cmd, ignore=None)
 

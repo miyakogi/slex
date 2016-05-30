@@ -176,6 +176,10 @@ div.document {
     display: flex;
 }
 
+div.documentwrapper {
+    width: 100%;
+}
+
 div.footer {
     margin: 20px auto 30px auto;
     max-width: {{ theme_page_width }};
@@ -928,8 +932,6 @@ span.eqno {
     }
 }
 
-
-/* -- page layout ----------------------------------------------------------- */
 
 /* -- body styles ----------------------------------------------------------- */
 
