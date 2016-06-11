@@ -603,10 +603,6 @@ div.sphinxsidebarwrapper h1.logo {
     margin-bottom: 5px;
 }
 
-div.sphinxsidebarwrapper h1.logo > a {
-    color: #333;
-}
-
 div.sphinxsidebarwrapper h1.logo-name {
     margin-top: 0px;
 }

@@ -12,8 +12,7 @@ SLEX
 
 --------------------------------------------------------------------------------
 
-
-Simple and flexible `Sphinx`_ theme for the flexbox age.
+Simple and flexible `Sphinx`_ theme for the flexbox age, based on `alabaster`_.
 
 Features
 --------
@@ -25,6 +24,15 @@ Features
 - Flexbox based layout
 - CSS friendly
 - Some components ported from `alabaster`_ sphinx theme
+
+Installation
+------------
+
+(Not published to PyPI yet)
+
+.. code-block:: shell
+
+   pip install git+https://github.com/miyakogi/slex
 
 .. _Sphinx: http://www.sphinx-doc.org/
 .. _HTML5 reset: https://github.com/murtaugh/HTML5-Reset
